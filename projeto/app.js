@@ -32,6 +32,11 @@ function descry(){
     pElement.innerHTML = textoC;
 }
 
-function copiar(){
-    
-}
+function copiar() {
+    const textoCript = document.getElementById("textoCript").textContent;
+  
+    navigator.clipboard.writeText(textoCript).then(() => {
+      alert("Texto copiado para a área de transferência!");
+    });
+  }
+  

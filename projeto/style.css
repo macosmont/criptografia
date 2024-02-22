@@ -1,35 +1,79 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-body {
-    background-color: #014785;
-    color: #dadde0;
-    padding: 50px 0 0 50px;
-    font-size: 2rem;
-}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
   
   .container {
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px 200px;
-}
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
-  .item {
-    border: 1px solid #00f4bf;
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: normal;
-}
+  /* Cabeçalho */
 
-input{
-    background-color: #0055a0;
-    border-radius: 3px;
-    border: 0cm;
-    box-shadow: 0px 0px 50px -3px rgba(0,0,0,0.1);
-}
-
-p{
-    
-    background-color: #0055a0;      
-}
+.item1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item1 input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .item1 button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s;
+  }
+  
+  .item1 button:hover {
+    background-color: #333;
+  }
+  
+  /* Saída */
+  
+  .item2 {
+    margin-top: 20px;
+  }
+  
+  #textoCript {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow: scroll;
+  }
+  
+  /* Botão copiar */
+  
+  #clipboardCopy {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s;
+  }
+  
+  #clipboardCopy:hover {
+    background-color: #333;
+  }
+  
