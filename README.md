@@ -1,4 +1,3 @@
-# criptografia
 # PROJETO: DECODIFICADOR DE TEXTO COM JAVASCRIPT (👾)
 <br>
 
