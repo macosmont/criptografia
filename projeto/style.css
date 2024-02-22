@@ -9,6 +9,7 @@
     font-family: sans-serif;
     font-size: 16px;
     color: #333;
+    background-color: aliceblue;
   }
   
   .container {
@@ -76,4 +77,37 @@
   #clipboardCopy:hover {
     background-color: #333;
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #338b98;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  footer img {
+    height: 20px;
+    margin-left: 10px;
+  }
+  
   
