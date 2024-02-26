@@ -1,6 +1,11 @@
 let textoC = ''
 let textoTrocado = ''
 
+function darkMode(){
+    let element = document.body
+    element.classList.toggle("darkMode")
+}
+
 function trocarVogais(){
     let vogais = {
     "a":"ai",
