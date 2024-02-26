@@ -69,9 +69,6 @@
   /* Botão copiar */
   
   #clipboardCopy {
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
     background-color: #000;
