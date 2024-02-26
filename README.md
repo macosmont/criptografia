@@ -6,6 +6,8 @@
 ## Prévia
 
 ![Decodificador de Texto](https://cdn.discordapp.com/attachments/1206426783570862134/1210275144413487145/image.png?ex=65e9f790&is=65d78290&hm=bfb1efbbe072bced4c7114c9c96b1333a68b94fd105bc506e4f1de0b808d5cdf&)
+![Decodificador de Texto](https://cdn.discordapp.com/attachments/1206426783570862134/1211721361643540540/image.png?ex=65ef3a75&is=65dcc575&hm=069e5d6ee576172db060967125f0904c1575e0b8b3675a4f63ff7d90de9ae7ab&)
+
 [Live Demo](https://macosmont.github.io/criptografia/main.html)
 
 ## Funcionalidades:
